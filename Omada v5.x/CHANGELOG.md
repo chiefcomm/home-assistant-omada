@@ -1,8 +1,5 @@
 # Changelog
 
-## 5.13.23 - 2023-01-19
--Support Omada version 5.13.23
-
 ## 5.13.22 - 2023-12-4
 -Support Omada version 5.13.22
 
