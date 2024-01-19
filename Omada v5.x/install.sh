@@ -6,7 +6,10 @@ OMADA_DIR="/opt/tplink/EAPController"
 ARCH="${ARCH:-}"
 OMADA_VER="${OMADA_VER:-}"
 OMADA_TAR="${OMADA_TAR:-}"
-OMADA_URL="https://static.tp-link.com/upload/beta/2023/202310/20231027/Omada_SDN_Controller_v5.13.10_Linux_x64.tar.gz(Beta).gz"
+
+# get URL to package based on major.minor version; for information on this url API, see https://github.com/mbentley/docker-omada-controller-url
+OMADA_URL="$(wget -q -O - "https://omada-controller-url.mbentley.net/hooks/omada_ver_to_url?omada-ver=${INSTALL_VER}")"
+
 OMADA_MAJOR_VER="$(echo "${OMADA_VER}" | awk -F '.' '{print $1}')"
 
 
