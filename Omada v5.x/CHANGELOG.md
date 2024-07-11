@@ -3,8 +3,7 @@
 ## 5.14.26.1 - 2024-07-12
 -Support Omada version v5.14.26.1
 
-## 5.13.30.8 - 2024-04-7
--Support Omada version v5.13.30.8
+## 5.13.30.8 - 2024-07-11
 -Rebased to support MBentley installer
 
 ## 5.13.22 - 2023-12-4
