@@ -1,7 +1,7 @@
 # rebased/repackaged base image that only updates existing packages
 ARG BASE=mbentley/ubuntu:20.04
 FROM ${BASE}
-LABEL maintainer="Simon Forrest"
+LABEL maintainer="Matt Bentley <mbentley@mbentley.net>"
 LABEL org.opencontainers.image.source="https://github.com/mbentley/docker-omada-controller"
 
 COPY healthcheck.sh install.sh /
