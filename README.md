@@ -6,6 +6,7 @@ There exist two Add-On-Versions:
 
 - Omada Stable
 - Omada Beta
+- Omada v5.x
 
 Omada Stable is created from Omada Beta (both in this repository), as soon as the beta add-on is updated to the latest
 stable upstream version. Omada Beta should also be fairly stable, because the Add-On is mostly consistent with the already tested [docker-omada-cotroller](https://github.com/mbentley/docker-omada-controller), but might contain some Home-Assistant related inconsistencies or bugs.
