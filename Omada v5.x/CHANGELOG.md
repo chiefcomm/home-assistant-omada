@@ -1,9 +1,5 @@
 # Changelog
 
-## 5.13.4 - 2024-03-27
-
-- Added slug 5.12.x (replica of stable)
-
 ## 5.13.3 - 2024-03-27
 
 - Updated to 5.13.30 image
