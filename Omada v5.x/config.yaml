@@ -1,15 +1,16 @@
 ---
-name: Omada Controller
-version: 5.13.30.8
-slug: omada_controller_5.12
-description: TP-Link Omada Controller software v5
+name: Omada Controller Stable
+image: dratrav/home-assistant-omada-stable
+version: 5.13.5
+slug: omada_controller_stable
+description: TP-Link Omada Controller software
 webui: https://[HOST]:[PORT:8043]
 startup: application
 arch:
   - aarch64
   - amd64
 init: false
-url: https://github.com/chiefcomm/home-assistant-omada
+url: https://github.com/jkunczik/home-assistant-omada
 map:
   - ssl
 options:

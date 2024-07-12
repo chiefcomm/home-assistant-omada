@@ -1,9 +1,5 @@
 # Changelog
 
-## 5.13.4 - 2024-07-12
-
-- Added v5.x structure before moving to 5.14.x
-
 ## 5.13.3 - 2024-03-27
 
 - Updated to 5.13.30 image
