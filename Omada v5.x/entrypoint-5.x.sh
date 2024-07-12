@@ -33,11 +33,26 @@ SHOW_MONGODB_LOGS="${SHOW_MONGODB_LOGS:-false}"
 SSL_CERT_NAME="${SSL_CERT_NAME:-tls.crt}"
 SSL_KEY_NAME="${SSL_KEY_NAME:-tls.key}"
 TLS_1_11_ENABLED="${TLS_1_11_ENABLED:-false}"
+# default /opt/tplink/EAPController
+OMADA_DIR="/opt/tplink/EAPController"
 PUID="${PUID:-508}"
 PGID="${PGID:-508}"
 PUSERNAME="${PUSERNAME:-omada}"
 PGROUP="${PGROUP:-omada}"
 SKIP_USERLAND_KERNEL_CHECK="${SKIP_USERLAND_KERNEL_CHECK:-false}"
+
+bashio::log.info "Create 'logs' directory inside persistent /data volume, if it doesn't exist."
+mkdir -p "${OMADA_DIR}/data/logs"
+ln -s "${OMADA_DIR}/data/logs" "${OMADA_DIR}/logs"
+chown -R omada:omada "${OMADA_DIR}/logs"
+
+if bashio::config.true 'enable_hass_ssl'; then
+  bashio::log.info "Use SSL from Home Assistant"
+  SSL_CERT=$(bashio::config 'certfile')
+  bashio::log.info "SSL certificate: ${SSL_CERT}"
+  SSL_KEY=$(bashio::config 'keyfile')
+  bashio::log.info "SSL private key: ${SSL_KEY}"
+fi
 
 # validate user/group exist with correct UID/GID
 echo "INFO: Validating user/group (${PUSERNAME}:${PGROUP}) exists with correct UID/GID (${PUID}:${PGID})"
