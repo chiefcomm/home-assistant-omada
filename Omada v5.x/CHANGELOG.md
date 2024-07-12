@@ -2,7 +2,7 @@
 
 ## 5.13.4 - 2024-07-12
 
-- Updated JRE
+- Added v5.x structure before moving to 5.14.x
 
 ## 5.13.3 - 2024-03-27
 
