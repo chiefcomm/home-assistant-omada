@@ -17,7 +17,7 @@ Installing third-party repositories:
 1. Go to home assistant -> settings -> addons -> addon store
 2. Click the hamburger menu (The three dots in the top right corner)
 3. Click repositories
-4. At the bottom there should be a space to paste the GitHub link: https://github.com/jkunczik/home-assistant-omada
+4. At the bottom there should be a space to paste the GitHub link: https://github.com/chiefcomm/home-assistant-omada
 5. You might have to refresh the page, but it should show up in the addon store under "Home Assistant Omada"
 
 ## Options
@@ -33,7 +33,7 @@ The default paths are compatible with the `Letsencrypt` Add-On.
 
 ## Contribution
 
-This add-on is a fork of Matt Bentleys [docker-omada-cotroller](https://github.com/mbentley/docker-omada-controller) and jkunczik [home-assistant-omada](https://github.com/jkunczik/home-assistant-omada) would not have been possible without thier excellent work. Other than in the original docker omada controller, this add-on stores all persistent data in the /data directory, so that it is compatible with Home assistant. This Add-On would not be possible without the effort of other people. Pull requests for version
+This add-on is a fork of Matt Bentleys [docker-omada-controller](https://github.com/mbentley/docker-omada-controller) and jkunczik [home-assistant-omada](https://github.com/jkunczik/home-assistant-omada) would not have been possible without thier excellent work. Other than in the original docker omada controller, this add-on stores all persistent data in the /data directory, so that it is compatible with Home assistant. This Add-On would not be possible without the effort of other people. Pull requests for version
 updates or new features are always more than welcome. Special thanks goes to DraTrav for pushing this Add-On forward!
 
 <a href="https://github.com/jkunczik/home-assistant-omada/graphs/contributors">
