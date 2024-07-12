@@ -2,7 +2,7 @@
 name: Omada Controller Stable
 image: dratrav/home-assistant-omada-stable
 version: 5.13.5
-slug: omada_controller_stable
+slug: omada_controller_5.12
 description: TP-Link Omada Controller software
 webui: https://[HOST]:[PORT:8043]
 startup: application
