@@ -1,16 +1,26 @@
 # Changelog
 
-## 5.14.26.1 - 2024-07-12
--Support Omada version v5.14.26.1
+## 5.13.4 - 2024-07-12
 
-## 5.13.30.8 - 2024-07-11
--Rebased to support MBentley installer
+- Updated JRE
 
-## 5.13.22 - 2023-12-4
--Support Omada version 5.13.22
+## 5.13.3 - 2024-03-27
 
-## 5.12.7 - 2023-11-24
--Support Omada version 5.12.7
+- Updated to 5.13.30 image
+- Fix to make log files persistent
+
+## 5.13.1 - 2024-03-27
+
+- Support for using the SSL certificate from Home Assistant in Omada
 
 ## 5.9.3 - 2023-08-31
--Fix for the healthcheck Thanks nathanielks!
+- Fix for the healthcheck Thanks nathanielks!
+
+## 5.9.2 - 2023-04-3
+### Added
+- Updated to 5.9.31 image
+
+
+## 5.9.1 - 2023-03-11
+### Added
+- Support for AMD64 platforms.
