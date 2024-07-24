@@ -1,9 +1,5 @@
 # Changelog
 
-## 5.14.26 - 2024-07-24
-
-- Support Omada v5.14.26.1 (Stable)
-
 ## 5.13.3 - 2024-03-27
 
 - Updated to 5.13.30 image

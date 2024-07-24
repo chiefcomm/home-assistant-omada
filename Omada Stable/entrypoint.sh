@@ -156,7 +156,7 @@ then
 fi
 
 # make sure permissions are set appropriately on each directory
-for DIR in data logs properties
+for DIR in data logs
 do
   OWNER="$(stat -c '%u' ${OMADA_DIR}/${DIR})"
   GROUP="$(stat -c '%g' ${OMADA_DIR}/${DIR})"
